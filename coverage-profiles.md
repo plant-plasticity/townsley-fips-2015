@@ -1,5 +1,18 @@
 # Coverage profiles
 
+<!-- MarkdownTOC -->
+
+- [Extracting coverage data for coding and 3'-UTR sequences](#extracting-coverage-data-for-coding-and-3-utr-sequences)
+    - [About the coverage profiler script](#about-the-coverage-profiler-script)
+    - [Input files for the coverage profiler](#input-files-for-the-coverage-profiler)
+    - [How we ran the coverage profiler](#how-we-ran-the-coverage-profiler)
+    - [Output files from the coverage profiler](#output-files-from-the-coverage-profiler)
+- [Plotting coverage profiles](#plotting-coverage-profiles)
+    - [Choosing and manipulating coverage files to use for plotting](#choosing-and-manipulating-coverage-files-to-use-for-plotting)
+    - [Plotting in R](#plotting-in-r)
+
+<!-- /MarkdownTOC -->
+
 ## Extracting coverage data for coding and 3'-UTR sequences
 
 ### About the coverage profiler script
@@ -110,6 +123,6 @@ In our case, we have ten output files from two runs of the coverage profiler. Fi
 
 ## Plotting coverage profiles
 
-### Choosing and manipulating coverage files to use for potting
+### Choosing and manipulating coverage files to use for plotting
 
 ### Plotting in R
