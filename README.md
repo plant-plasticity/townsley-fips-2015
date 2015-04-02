@@ -13,3 +13,4 @@
 ## Code used by topic
 
 - [Coverage Profiles](coverage-profiles.md)
+- [Differential Gene Expression](differential-gene-expression.md)
