@@ -92,9 +92,9 @@ In our paper, we ran the coverage profiler on sets of BAM alignment files groupe
 We used the default 3'-UTR length (500 bp), which can be customized using the `--length_3_UTR` parameter.
 
 ```sh
-$BIN_DIR=    # Directory containing coverage-profiler.pl
-$BAM_DIR=    # Directory containing BAM alignment files
-$OUT_DIR=    # Output directory
+BIN_DIR=    # Directory containing coverage-profiler.pl
+BAM_DIR=    # Directory containing BAM alignment files
+OUT_DIR=    # Output directory
 
 for METHOD in DGE HTR; do
     perl $BIN_DIR/coverage-profiler.pl --out $OUT_DIR --id $METHOD $BAM_DIR/*$METHOD*.bam

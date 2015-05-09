@@ -76,10 +76,10 @@ The down-sampler uses a [samtools](http://www.htslib.org)-based approach (i.e., 
 ### How we ran the down-sampler
 
 ```sh
-$BIN_DIR=     # Directory containing down-sample-reads-auto.pl
-$HTR_DIR=     # Directory containing HTR alignment files
-$DGE_DIR=     # Directory containing DGE alignment files
-$DOWN_DIR=    # Directory containing down-sampled alignment files
+BIN_DIR=     # Directory containing down-sample-reads-auto.pl
+HTR_DIR=     # Directory containing HTR alignment files
+DGE_DIR=     # Directory containing DGE alignment files
+DOWN_DIR=    # Directory containing down-sampled alignment files
 
 perl $BIN_DIR/down-sample-reads-auto.pl -o $DOWN_DIR $HTR_DIR/*.sam $DGE_DIR/*.sam
 ```
@@ -147,9 +147,9 @@ perl simple_couts.pl -h
 ### How we ran the read counter
 
 ```sh
-$BIN_DIR=      # Directory containing simple-counts.pl
-$DOWN_DIR=     # Directory containing down-sampled alignment files
-$COUNT_DIR=    # Directory containing read counts files
+BIN_DIR=      # Directory containing simple-counts.pl
+DOWN_DIR=     # Directory containing down-sampled alignment files
+COUNT_DIR=    # Directory containing read counts files
 
 perl $BIN_DIR/simple-counts.pl -o $COUNT_DIR $DOWN_DIR/*.sam
 ```
